@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+}
+.maxtop{
+    width: 1320px;
+    height: 790px;
+    margin: auto;
+}
+.topImg img{
+    width: 1320px;height: 700px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-radius:20px;
+}
+.topWord{
+    width: 1320px;height: 70px;
+    margin-top: 10px;
+}
+.topWord span{
+    width: 90px;height: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.topWord img:first-child{
+    width: 60px;height: 60px;
+    display: inline-block;
+    vertical-align:middle;
+
+}
+
+.topWord img:last-child{
+    width: 100px;height: 60px;
+    display: block;
+    float: right; 
+}
+
+* {
+    box-sizing: border-box;  
+}
+
+form {
+    position: relative;
+    width: 250px;
+    display: block;
+    float: right;   
+    margin-top: 10px;
+}
+
+input,button {
+    border: none;   
+    outline: none;  
+}
+
+.topWord input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+    border: 2px solid #c5464a;
+    border-radius: 19px;   /*border-radius 属性用于向元素添加圆角边框：*/
+    background: transparent;  /*背景透明*/
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:white;
+}
+
+.topWord button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;  /*cursor属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状*/
+    position: absolute;
+    background: #c5464a;
+    border-radius: 0 19px 19px 0;
+    width: 60px;
+    right: 0;
+}
+.topWord button:hover {
+    background-color: #c7585c;  /*点击搜索按钮时的背景颜色*/
+}
+
+/* 在<button>元素后面插入内容，并设置所插入内容的样式： */
+.topWord button:before {
+    content: "搜索";  /*插入的内容*/
+    font-size: 13px;  /*插入内容的字体大小*/
+    color: #F9F0DA;  /*插入内容的字体颜色*/
+}
+
+.maxzixun{
+    width: 1320px;height: 200px;
+    margin:0 auto;
+}
+
+.mid{
+    width: 1320px;height: 1315px;
+    margin:0 auto;
+}
+
+.sidebar{
+    width: 100px;height: 1315px;
+    float: left;
+}
+
+.vertical-nav {
+    list-style-type: none;
+    width: 100px;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.vertical-nav li {
+    height: 100px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    font-weight: 700;
+}
+
+.vertical-nav li:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.vertical-nav li:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.zixun2{
+    width: 250px;height: 200px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.zixun2 img{
+    width: 250px;height: 200px;
+    border-radius:20px;
+}
+
+.zixun3{
+    width: 250px;height: 200px;
+    background-color: #F5F7F8;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    border-radius:20px;
+}
+.zixun3 span{
+    display: block;
+    width: 240px;height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center; 
+    text-indent: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zixun5{
+    width: 250px;height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.zixun6{
+    width: 120px;height: 200px;
+    display: inline-block;
+    margin-left: -15px;
+    vertical-align: top;
+}
+
+.zixun6 span{
+    display: block;
+    width: 120px;height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center; 
+    text-indent: 2em;
+}
+
+.zixun6 img{
+    width: 110px;height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius:20px;
+}
+.gap{
+    width: 1320px;height: 15px;
+    margin: auto;
+}
+
+.maxguang{
+    width: 1320px;height: 150px;
+    margin: auto;
+}
+
+
+.guang2{
+    width: 250px;height: 150px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.guang2 img{
+    width: 250px;height: 150px;
+    border-radius:20px;
+}
+
+.guang3{
+    width: 360px;height: 150px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+.maxmid{
+    width: 1320px;height: 200px;
+    margin: auto;
+}
+
+.content2{
+    width: 250px;height: 200px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.content2 img{
+    width: 250px;height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.c-video{
+    width: 360px;height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.c-video video{
+    width: 360px;height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.maxword{
+    width: 1320px;height: 100px;
+    margin: auto;
+}
+
+.word2{
+    width: 250px;height: 100px;
+    background-color: #F5F7F8;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: top;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.word2 span{
+    display: block;
+    width: 240px;height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center; 
+    text-indent: 2em;
+    margin-left: 5px;
+}
+
+.word3{
+    width: 360px;height: 100px;
+    background-color: #F5F7F8;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: top;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.word3 span{
+    display: block;
+    width: 360px;height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center; 
+    text-indent: 2em;
+}
+
+.bottom1{
+    width: 600px;height: 40px;
+    margin: auto;
+}
+
+.bottom1 span{
+    display: block;
+    float: left;
+    width: 200px;height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bottom2{
+    width: 600px;height: 40px;
+    margin: auto;
+}
+
+.bottom2 span{
+    display: block;
+    float: left;
+    width: 600px;height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 未被访问的链接 */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+    /* 已被访问的链接 */
+a:visited {
+    color: white;
+}
+    /* 将鼠标悬停在链接上 */
+a:hover {
+    color: hotpink;
+}
+    /* 被选择的链接 */
+a:active {
+    color: blue;
+}
+
+
+.zixun3 a:link {
+    color: black;
+    text-decoration: none;
+}
+    /* 已被访问的链接 */
+.zixun3 a:visited {
+    color: black;
+}
+    /* 将鼠标悬停在链接上 */
+.zixun3 a:hover {
+    color: hotpink;
+}
+    /* 被选择的链接 */
+.zixun3 a:active {
+    color: blue;
+}
+
+.word2 a:link {
+    color: black;
+    text-decoration: none;
+}
+    /* 已被访问的链接 */
+.word2 a:visited {
+    color: black;
+}
+    /* 将鼠标悬停在链接上 */
+.word2 a:hover {
+    color: hotpink;
+}
+    /* 被选择的链接 */
+.word2 a:active {
+    color: blue;
+}
+
+.word3 a:link {
+    color: black;
+    text-decoration: none;
+}
+    /* 已被访问的链接 */
+.word3 a:visited {
+    color: black;
+}
+    /* 将鼠标悬停在链接上 */
+.word3 a:hover {
+    color: hotpink;
+}
+    /* 被选择的链接 */
+.word3 a:active {
+    color: blue;
+}
+.vertical-nav li a {
+    display: block;
+    line-height: 100px;
+    text-decoration: none;
+    color: #333;
+}
+
+.content2{
+    transition: all 0.4s;
+}
+.guang2{
+    transition: all 0.4s;
+}
+
+.zixun2{
+    transition: all 0.4s;
+}
+
+.vertical-nav li{
+    transition: all 0.4s;
+}
+
+    /* 将鼠标悬停在链接上 */
+.content2:hover {
+    box-shadow: 0 3px 3px 0 #3c6ca9;
+    transform: translate(0, -10px);
+}
+
+.vertical-nav li:hover {
+    background-color: #ccc;
+    transform: translate(0, -10px);
+    transform: scale(1.07)
+}
+
+.guang2:hover{
+    box-shadow: 0 8px 8px 0 #3c6ca9;
+    transform: translate(0, -10px);
+    transform: scale(1.07)
+}
+
+.zixun2:hover{
+    transform: translate(0, -10px);
+    transform: scale(1.07)
+}
+

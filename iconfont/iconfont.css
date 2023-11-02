@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4310797 */
+  src: url('iconfont.woff2?t=1698803685330') format('woff2'),
+      url('iconfont.woff?t=1698803685330') format('woff'),
+      url('iconfont.ttf?t=1698803685330') format('truetype');
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont1.ttf?t=1677957043211') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Youtube:before {
+  content: "\e880";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-wechat-fill:before {
+  content: "\e883";
+}
+
+.icon-douyin:before {
+  content: "\e673";
+}
+
+.icon-bilibili:before {
+  content: "\e601";
+}
+
+
+.icon-icon_bilibili-circle:before {
+  content: "\e600";
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangzuo:before {
+  content: "\f01a8";
+}
+
+.icon-xiangyou:before {
+  content: "\e626";
+}
